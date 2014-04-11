@@ -18,6 +18,10 @@
    del                    { text-decoration:line-through; }
    table                  { border-collapse:collapse; border-spacing:0; }
 
+/* ============================================================
+   CSS CLASSES
+   ============================================================ */  
+
 a {text-decoration: none}
 
 body {
@@ -92,8 +96,12 @@ a.nav-links {
   height: 60px;
   color: #fff;
   width: 100%;
-  border-right: solid 1px solid #d9d9d9;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  border-bottom: solid 1px solid #d9d9d9;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+  box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 10;
 }
 
 .banner-container {
@@ -102,14 +110,12 @@ a.nav-links {
 }
  
 .body {
-  background-color: #f2f0ec;
   height: 580px;
-  border-right: solid 1px solid #d9d9d9;
-}
-
-.main {
-  display: inline-block;
-  width: 620px;
+  color: #f2f0ec;
+  width: 100%;
+  position: relative;
+  border-bottom: solid 1px solid #d9d9d9;
+  z-index: 9;
 }
 
 .lg-pic {
@@ -165,11 +171,7 @@ a.button > span {
 }
 
 .myButton {
-  position: relative;
   top: 25px;
-  -moz-box-shadow: 0px 3px 6px -4px #000000;
-  -webkit-box-shadow: 0px 3px 6px -4px #000000;
-  box-shadow: 0px 3px 6px -4px #000000;
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffdd00), color-stop(1, #eaa800));
   background:-moz-linear-gradient(top, #ffdd00 5%, #eaa800 100%);
   background:-webkit-linear-gradient(top, #ffdd00 5%, #eaa800 100%);
@@ -179,10 +181,12 @@ a.button > span {
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd00', endColorstr='#eaa800',GradientType=0);
   -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
   background-color:#ffdd00;
+  
   -moz-border-radius:8px;
   -webkit-border-radius:8px;
   border-radius:8px;
   border:1px solid #cb9100;
+  
   display:inline-block;
   cursor:pointer;
   color:#ffffff;
@@ -191,6 +195,11 @@ a.button > span {
   padding:30px 150px;
   text-decoration:none;
   text-shadow:0px 1px 0px #ac6a00;
+  -webkit-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.4);
+  -moz-box-shadow:0px 3px 5px -2px rgba(0,0,0,0.4);
+  box-shadow:0px 3px 5px -2px rgba(0,0,0,0.4);
+  position: relative;
+  z-index: 10;
 }
 .myButton:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eaa800), color-stop(1, #ffdd00));
@@ -204,7 +213,7 @@ a.button > span {
 }
 .myButton:active {
   position:relative;
-  top:1px;
+  top:25px;
 }
 
 /* ============================================================
@@ -266,8 +275,11 @@ a.button > span {
 }
 
 .lower-body-pictures {
-  background-color: #fff;
   height: 300px;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  z-index: 8;    
 }
 
 .watch-picture {
