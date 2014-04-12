@@ -57,9 +57,10 @@ a.copyright               { }
 p                         { font-family:'Montserrat', sans-serif }
 p.current-mob-title       { display:inline-block; padding: 16px 0 0 22px; font-size: 1.6em; color:#fff; font-weight: 400 }
 p.current-mob-time        { display:inline-block; padding: 0 0 0 220px; font-size: 0.9em; color:#fff; font-weight: 400 }  
-p.mob-message             { position:relative; left: 13px; font-size: 1.1em; color:#fff; font-weight: 700; text-shadow:0px 1px 0px #cb9000; text-transform:uppercase }
+p.mob-message             { position:relative; left: 13px; font-size: 1.1em; color:#fff; font-weight: 700; text-shadow:0px 1px #cb9000; text-transform:uppercase }
 p.warning-message         { }
-p.current-mob-count       { }
+p.current-mob-count       { text-align: center; margin: 0px 0px 0px 0px; color: #fff; font-size: 4em; font-weight: 400; text-shadow:0px 1px 0px #918f8b }
+p.mobbers                 { text-align: center; font-size: 0.8em; color:#414141; font-weight: 400; text-shadow:0px 1px rgba(255,255,255,0.75); text-transform:uppercase }
 p.mob-reward-large        { }
 p.mob-reward-small        { }
 p.mob-description         { }
@@ -114,7 +115,7 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
 .main-background          { height: 580px; background-color: #f2f0ec }
 
 .current-mob-pic          { background-image:url('../images/lg-pic.png'); margin: 30px 0 0 0; height: 400px; width: 620px }
-.pic-description          { padding: 65px 0 0 0; background-color: #d0cdc7 }
+.pic-description          { width: 100%; height: 85px; background-color: #d0cdc7 }
 /*.clock-icon               { background-image:url('../images/clock-icon.png'); height: 20px; width: 20px }*/
 
 .ribbon-container         { padding-left:-6px}
@@ -126,10 +127,10 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
 .theribbon:after          { content: ' ';position: absolute;width: 0;height: 0 }
 .theribbon:after          { left: 0px;top: 100%;border-width: 5px 3px;border-style: solid;border-color: #f9ce00 #f9ce00 transparent transparent;}
 
-.number-box               { margin: 30px 0 0 0; padding: 120px 140px 0 0; background-color: #d0cdc7 }
-.number-info              { padding: 32px 140px 0 0; background-color: #b5aea3 }
+.number-box               { margin: 30px 0 0 0; width: 100%; height: 120px; background-color: #d0cdc7 }
+.number-info              { width: 100%; height: 32px; background-color: #b5aea3 }
 
-.join-button              { top: 25px; position: relative; z-index: 10; display:inline-block; padding:30px 150px; border:1px solid #cb9100; color:#ffffff; font-family:Verdana; font-size:17px; text-shadow:0px 1px 0px #ac6a00;
+.join-button              { position: relative; top: 25px; z-index: 10; display:inline-block; width: 100%; height: 62px; text-align: center; border:1px solid #cb9100; color:#ffffff; font-family:Verdana; font-size:24px; text-shadow:0px 1px 0px #ac6a00;
                             background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffdd00), color-stop(1, #eaa800)); background-color:#ffdd00;
                             background:-moz-linear-gradient(top, #ffdd00 5%, #eaa800 100%);
                             background:-webkit-linear-gradient(top, #ffdd00 5%, #eaa800 100%);
