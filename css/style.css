@@ -44,7 +44,7 @@ a.menu-bar                { display:inline-block; list-style-type: none; color:#
 a.login-name              { position:relative; top: -32px; padding: 0 0 0 60px; color:#fff; text-shadow:0px 2px 0px rgba(0,0,0,0.75); font-size: 14px }
 a.login-toggle            { position:relative; top: -48px; margin: 0 0 0 145px; color: #9c9c9c; font-size: 0.6em; text-shadow:0px 2px 0px rgba(0,0,0,0.75) }
 a.current-mob-start       { font-size: 17px; color:#414141; font-weight: 400; font-style: italic }
-a.kickstarter             { }
+a.kickstarter             { text-align: left; font-family:'Montserrat', sans-serif; font-size: 10px; color:#0e81b1; font-weight: 400 }
 a.future-mobs             { }
 a.social-media            { }
 a.copyright               { }
@@ -58,11 +58,12 @@ p                         { font-family:'Montserrat', sans-serif }
 p.current-mob-title       { display:inline-block; padding: 16px 0 0 22px; font-size: 1.6em; color:#fff; font-weight: 400 }
 p.current-mob-time        { display:inline-block; padding: 0 0 0 220px; font-size: 0.9em; color:#fff; font-weight: 400 }  
 p.mob-message             { position:relative; left: 13px; font-size: 1.1em; color:#fff; font-weight: 700; text-shadow:0px 1px #cb9000; text-transform:uppercase }
-p.warning-message         { }
 p.current-mob-count       { text-align: center; margin: 0px 0px 0px 0px; color: #fff; font-size: 4em; font-weight: 400; text-shadow:0px 1px 0px #918f8b }
 p.mobbers                 { text-align: center; font-size: 0.8em; color:#414141; font-weight: 400; text-shadow:0px 1px rgba(255,255,255,0.75); text-transform:uppercase }
-p.mob-reward-large        { }
-p.mob-reward-small        { }
+p.mob-reward-large        { font-size: 1em; color:#414141; font-weight: 700 }
+p.mob-reward-small        { font-size: 0.8em; color:#414141; font-weight: 400 }
+p.warning_1               { text-align: left; font-family:'Montserrat', sans-serif; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 18px }
+p.warning_2               { text-align: center; font-family:'Montserrat', sans-serif; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 18px }
 p.mob-description         { }
 p.mob-time                { }
 p.mob-upload              { }
@@ -160,12 +161,15 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
                             box-shadow:inset 0px -5px 0px -2px rgba(177,177,177,0.25);
                             -webkit-border-radius: 0 0 8px 8px;
                             border-radius: 0 0 8px 8px }
+.ribbon                   { background-image:url('../images/ribbon.png'); background-repeat: no-repeat; display: inline-block; padding: 0 0 2px 3px; height: 36px; width: 53px }                            
 
 .line-small               { position: relative; top: 60px; height:1px; width: 300px; background:#b1b1b1 }
 
-.twitter-icon             { background-image:url('../images/twitter-icon.png'); background-repeat: no-repeat; display: inline-block; height: 20px; width: 55px; margin: 80px 0 0 0 }
-.facebook-icon            { background-image:url('../images/facebook-icon.png'); background-repeat: no-repeat; height: 20px; width: 44px; margin: 80px 0 0 0; display: inline-block; margin-left: 5px }
-.google-plus-icon         { background-image:url('../images/google-plus-icon.png'); background-repeat: no-repeat; height: 20px; width: 34px; margin-top: 80px; display: inline-block; margin-left: 5px }
+.button-container         { width: 100%; height: 20px; margin: 80px 0}
+.twitter-icon             { background-image:url('../images/twitter-icon.png'); background-repeat: no-repeat; display: inline-block; padding: 0 0 0 7px; height: 20px; width: 55px;  }
+.facebook-icon            { background-image:url('../images/facebook-icon.png'); background-repeat: no-repeat; display: inline-block; padding: 0 0 0 7px; height: 20px; width: 44px }
+.google-plus-icon         { background-image:url('../images/google-plus-icon.png'); background-repeat: no-repeat; display: inline-block; padding: 0 0 0 7px; height: 20px; width: 34px }
+.chain-link               { background-image:url('../images/chain-link.png'); background-repeat: no-repeat; display: inline-block; padding: 0 0 2px 3px; height: 15px; width: 15px }
 
 
 /* ============================================================
