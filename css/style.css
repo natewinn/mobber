@@ -26,7 +26,7 @@
 h1, h2, h3, h4, h5, h6    { color:#414141; font-weight:normal; font-family:'Montserrat', sans-serif }
 h1                        { text-align: center; margin: 30px 0 15px 0; font-size: 1.7em; font-weight: 400 }
 h2                        { margin: 42px 0 0 0; font-size: 22px; font-weight: 700 }
-h3                        { } /* Start your own mob text */
+h3                        { padding: 24px 0 0 0; font-size: 22px; font-weight: 700; text-align: center; color: #fff; text-shadow:0px 1px 0px #918f8b }
 h4                        { font-size: 21px; font-weight: 700; text-shadow:0px 1px 0px rgba(255,255,255,0.9); color: #787878 }
 h5                        { margin: 28px 0 0 0; font-size: 18px; font-weight: 700; color: #fff; text-shadow:0px 1px 0px #2b2b2b }
 
@@ -44,7 +44,7 @@ a.menu-bar                { display:inline-block; list-style-type: none; color:#
 a.login-name              { position:relative; top: -32px; padding: 0 0 0 60px; color:#fff; text-shadow:0px 2px 0px rgba(0,0,0,0.75); font-size: 14px }
 a.login-toggle            { position:relative; top: -48px; margin: 0 0 0 145px; color: #9c9c9c; font-size: 0.6em; text-shadow:0px 2px 0px rgba(0,0,0,0.75) }
 a.current-mob-start       { font-size: 16px; color:#414141; font-weight: 400; font-style: italic; line-height: 22px }
-a.kickstarter             { text-align: left; font-family:'Montserrat', sans-serif; font-size: 10px; color:#0e81b1; font-weight: 400 }
+a.kickstarter             { text-align: left; font-size: 10px; color:#0e81b1; font-weight: 400 }
 a.future-mobs             { }
 a.social-media            { }
 a.copyright               { }
@@ -81,17 +81,17 @@ box-align:center;
 p                         { font-family:'Montserrat', sans-serif }
 p.current-mob-title       { display:inline-block; padding: 16px 0 0 22px; font-size: 1.6em; color:#fff; font-weight: 400 }
 p.current-mob-time        { display:inline-block; padding: 0 0 0 220px; font-size: 0.9em; color:#fff; font-weight: 400 }  
-p.mob-message             { position:relative; left: 13px; font-size: 1em; color:#fff; font-weight: 700; text-shadow:0px 1px #cb9000; text-transform:uppercase }
+p.mob-message             { position: relative; left: 13px; font-size: 1em; color:#fff; font-weight: 700; text-shadow:0px 1px #cb9000; text-transform:uppercase }
 p.current-mob-count       { text-align: center; margin: 0px 0px 0px 0px; color: #fff; font-size: 4.3em; font-weight: 400; text-shadow:0px 1px 0px #918f8b }
 p.mobbers                 { text-align: center; font-size: 12px; color:#414141; font-weight: 400; text-shadow:0px 1px rgba(255,255,255,0.5); text-transform:uppercase }
 p.mob-reward-large        { font-size: 1.1em; color:#414141; font-weight: 700; padding: 8px 0 0 20px; }
 p.mob-reward-small        { font-size: 0.8em; line-height: 20px; color:#414141; font-weight: 400 }
-p.warning_1               { text-align: left; font-family:'Montserrat', sans-serif; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 18px }
-p.warning_2               { text-align: center; margin: 12px; font-family:'Montserrat', sans-serif; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 16px }
-p.mob-description         { text-align: left; font-size: 0.8em; color:#414141; font-weight: 700 }
+p.warning_1               { text-align: left; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 18px }
+p.warning_2               { text-align: center; margin: 12px; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 16px }
+p.mob-description         { text-align: left; line-height: 18px; font-size: 0.8em; color:#414141; font-weight: 700 }
 p.mobber-count            { text-align: left; font-size: 0.7em; color:#787878; font-weight: 400; line-height: 16px }
 p.mob-time                { }
-p.mob-upload              { }
+p.start-buttons           { text-align: center; margin: 13px; font-size: 0.7em; color:#414141; font-weight: 400; line-height: 16px }
 
 
 /* ============================================================
@@ -111,7 +111,7 @@ td.col-3                  { padding: 1rem 0 1rem 0; text-align:right; font-size:
    ============================================================ */ 
 
 li.nav                    { display: table-cell; height: 60px; width: 140px; line-height: 59px; text-align: left; white-space: nowrap }
-
+li.buttons                { display: table-cell; height: 60px; width: 100px; padding: 5px 0 0 0; text-align: center }
 
 /* ============================================================
    NAVIGATION BAR
@@ -161,7 +161,7 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
                             width: 300px; z-index: 10; display:inline-block;
                             text-align: center; font-weight: 400; 
                             padding:20px 0px; border:1px solid #cb9100; color:#ffffff; 
-                            font-family:Verdana; font-size:22px; text-shadow:0px 1px 0px #ac6a00;
+                            font-family:'Montserrat', sans-serif; font-size:22px; text-shadow:0px 1px 0px #ac6a00;
                             background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffdd00), color-stop(1, #eaa800)); background-color:#ffdd00;
                             background:-moz-linear-gradient(top, #ffdd00 5%, #eaa800 100%);
                             background:-webkit-linear-gradient(top, #ffdd00 5%, #eaa800 100%);
@@ -211,17 +211,17 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
                             -moz-box-shadow:0px -1px 1px 0px rgba(0,0,0,0.1);
                             box-shadow:0px -1px 1px 0px rgba(0,0,0,0.1) }
 
-.description-container    { width: 100%; padding: 0 0 0 0 }
-.watch-picture            { background-image:url('../images/watch-picture.png'); display: inline-block; margin: 40px 0; height: 195px; width: 300px }
-.ruths-chris-picture      { background-image:url('../images/ruths-chris-picture.png'); display: inline-block; margin: 40px 0; height: 195px; width: 300px }
-.twisted-sister-picture   { background-image:url('../images/twisted-sister-picture.png'); display: inline-block; margin: 40px 0; height: 195px; width: 300px }
+.description-container    { width: 100%; position: relative; top: 46px }
+.watch-picture            { position: relative; top: 40px; background-image:url('../images/watch-picture.png'); display: inline-block; height: 195px; width: 300px }
+.ruths-chris-picture      { position: relative; top: 40px; background-image:url('../images/ruths-chris-picture.png'); display: inline-block; height: 195px; width: 300px }
+.twisted-sister-picture   { position: relative; top: 40px; background-image:url('../images/twisted-sister-picture.png'); display: inline-block; height: 195px; width: 300px }
 
 .lower-background-bottom  { height: 310px; background-color: #fff }
 .line-big                 { position:relative; top:20px; height:1px; width: 940px; background:#b1b1b1 }
 
-.start-box                { margin-top: 42px; height:210px; background-color: #d0cdc7 }
-.connecting-line          { position:relative; top:36px; left: 55px; z-index: 0; width:205px; height: 8px; background-color: #bdbbb5 }
-.round-button-1           { position: relative; left:25px; top:20px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size: 20px; font-weight: bold;
+.start-box                { position: relative; top: 40px; width: 100%; height:243px; background-color: #d0cdc7 }
+.connecting-line          { position:relative; top: 28px; left: 55px; z-index: 0; width:205px; height: 8px; background-color: #bdbbb5 }
+.round-button-1           { position: relative; left:25px; top:12px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size: 20px; font-weight: bold;
                             background: -moz-linear-gradient(top,  #d5d5d5 0%, #f5f5f5 100%); /* FF3.6+ */
                             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5d5d5), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
                             background: -webkit-linear-gradient(top,  #d5d5d5 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
@@ -229,7 +229,7 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
                             background: -ms-linear-gradient(top,  #d5d5d5 0%,#f5f5f5 100%); /* IE10+ */
                             background: linear-gradient(to bottom,  #d5d5d5 0%,#f5f5f5 100%); /* W3C */
                             -webkit-box-shadow: inset 0 3px 0 rgba(255,255,255,0.6) }
-.round-button-2           { position: relative; left:88px; top:20px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size: 20px; font-weight: bold;
+.round-button-2           { position: relative; left:88px; top:12px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size: 20px; font-weight: bold;
                             background: -moz-linear-gradient(top,  #d5d5d5 0%, #f5f5f5 100%); /* FF3.6+ */
                             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5d5d5), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
                             background: -webkit-linear-gradient(top,  #d5d5d5 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
@@ -237,7 +237,7 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
                             background: -ms-linear-gradient(top,  #d5d5d5 0%,#f5f5f5 100%); /* IE10+ */
                             background: linear-gradient(to bottom,  #d5d5d5 0%,#f5f5f5 100%); /* W3C */
                             -webkit-box-shadow: inset 0 3px 0 rgba(255,255,255,0.6) }
-.round-button-3           { position: relative; left:150px; top:20px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size:20px; font-weight:bold;
+.round-button-3           { position: relative; left:150px; top:12px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size:20px; font-weight:bold;
                             background: -moz-linear-gradient(top,  #d5d5d5 0%, #f5f5f5 100%); /* FF3.6+ */
                             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5d5d5), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
                             background: -webkit-linear-gradient(top,  #d5d5d5 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
@@ -245,6 +245,53 @@ li.nav                    { display: table-cell; height: 60px; width: 140px; lin
                             background: -ms-linear-gradient(top,  #d5d5d5 0%,#f5f5f5 100%); /* IE10+ */
                             background: linear-gradient(to bottom,  #d5d5d5 0%,#f5f5f5 100%); /* W3C */
                             -webkit-box-shadow: inset 0 3px 0 rgba(255,255,255,0.6) }
+
+.start-button {
+/*  border: 0px 0 0 14px*/
+  width: 270px; z-index: 10;
+
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dddbd6), color-stop(1, #d0cdc7));
+  background:-moz-linear-gradient(top, #dddbd6 5%, #d0cdc7 100%);
+  background:-webkit-linear-gradient(top, #dddbd6 5%, #d0cdc7 100%);
+  background:-o-linear-gradient(top, #dddbd6 5%, #d0cdc7 100%);
+  background:-ms-linear-gradient(top, #dddbd6 5%, #d0cdc7 100%);
+  background:linear-gradient(to bottom, #dddbd6 5%, #d0cdc7 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddbd6', endColorstr='#d0cdc7',GradientType=0);
+  background-color:#dddbd6;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border:1px solid #7e7b77;
+  display:inline-block;
+  cursor:pointer;
+  color:#0e80b1;
+  text-align: center; font-weight: 400;
+  font-size:22px;
+  font-family:'Montserrat', sans-serif;
+  padding:20px 0;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.start-button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0cdc7), color-stop(1, #dddbd6));
+  background:-moz-linear-gradient(top, #d0cdc7 5%, #dddbd6 100%);
+  background:-webkit-linear-gradient(top, #d0cdc7 5%, #dddbd6 100%);
+  background:-o-linear-gradient(top, #d0cdc7 5%, #dddbd6 100%);
+  background:-ms-linear-gradient(top, #d0cdc7 5%, #dddbd6 100%);
+  background:linear-gradient(to bottom, #d0cdc7 5%, #dddbd6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0cdc7', endColorstr='#dddbd6',GradientType=0);
+  background-color:#d0cdc7;
+}
+.start-button:active {
+  position:relative;
+  top:1px;
+}
+
+
+
 
 
 /* ============================================================
