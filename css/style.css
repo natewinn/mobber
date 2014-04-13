@@ -28,7 +28,7 @@ h1                        { text-align: center; margin: 30px 0 15px 0; font-size
 h2                        { margin: 42px 0 0 0; font-size: 22px; font-weight: 700 }
 h3                        { padding: 24px 0 0 0; font-size: 22px; font-weight: 700; text-align: center; color: #fff; text-shadow:0px 1px 0px #918f8b }
 h4                        { font-size: 21px; font-weight: 700; text-shadow:0px 1px 0px rgba(255,255,255,0.9); color: #787878 }
-h5                        { margin: 28px 0 0 0; font-size: 18px; font-weight: 700; color: #fff; text-shadow:0px 1px 0px #2b2b2b }
+h5                        { margin: 28px 0 4px 0; font-size: 18px; font-weight: 700; color: #fff; text-shadow:0px 1px 0px #2b2b2b }
 
 
 /* ============================================================
@@ -38,7 +38,6 @@ h5                        { margin: 28px 0 0 0; font-size: 18px; font-weight: 70
 a                         { font-family:'Montserrat', sans-serif }
 a:link                    { text-decoration:none}
 a:visited                 { text-decoration:none}
-a:hover                   { color: #e3e3e3 }
 a:active                  { text-decoration:none}
 a.menu-bar                { display:inline-block; list-style-type: none; color:#fff; text-shadow:0px 2px 0px rgba(0,0,0,0.75); font-size: 16px; text-transform:uppercase; }
 a.login-name              { position:relative; top: -32px; padding: 0 0 0 60px; color:#fff; text-shadow:0px 2px 0px rgba(0,0,0,0.75); font-size: 14px }
@@ -78,7 +77,7 @@ box-align:center;
 
 }
 
-p                         { font-family:'Montserrat', sans-serif }
+p                         { font-size: 10px;  font-family:'Montserrat', sans-serif; text-shadow: 0px 1px 0px #2b2b2b; }
 p.current-mob-title       { display:inline-block; padding: 16px 0 0 22px; font-size: 1.6em; color:#fff; font-weight: 400 }
 p.current-mob-time        { display:inline-block; padding: 0 0 0 220px; font-size: 0.9em; color:#fff; font-weight: 400 }  
 p.mob-message             { position: relative; left: 13px; font-size: 1em; color:#fff; font-weight: 700; text-shadow:0px 1px #cb9000; text-transform:uppercase }
@@ -101,9 +100,9 @@ p.start-buttons           { text-align: center; margin: 13px; font-size: 0.7em; 
 table                     { margin-top: 28px }
 td                        { font-family:'Montserrat', sans-serif }
 tr                        { border-top: 1px solid #b1b1b1; padding: 0 0.5em }
-td.col-1                  { padding: 1rem 0 1rem 0; text-align:left;  font-size:0.9rem; font-weight: 700; color: #414141 }
-td.col-2                  { padding: 1rem 0 1rem 0; text-align:center; font-size:0.9rem; font-weight: 400; color: #414141 }
-td.col-3                  { padding: 1rem 0 1rem 0; text-align:right; font-size:0.9rem; font-weight: 400; color: #787878 }
+td.col-1                  { padding: 0.9rem 0 1rem 0; text-align:left;  font-size:0.9rem; font-weight: 700; color: #414141 }
+td.col-2                  { padding: 0.9rem 0 1rem 0; text-align:center; font-size:0.9rem; font-weight: 400; color: #414141 }
+td.col-3                  { padding: 0.9rem 0 1rem 0; text-align:right; font-size:0.9rem; font-weight: 400; color: #787878 }
 
 
 /* ============================================================
@@ -216,10 +215,10 @@ li.buttons                { display: table-cell; height: 60px; width: 100px; pad
 .ruths-chris-picture      { position: relative; top: 40px; background-image:url('../images/ruths-chris-picture.png'); display: inline-block; height: 195px; width: 300px }
 .twisted-sister-picture   { position: relative; top: 40px; background-image:url('../images/twisted-sister-picture.png'); display: inline-block; height: 195px; width: 300px }
 
-.lower-background-bottom  { height: 310px; background-color: #fff }
+.lower-background-bottom  { height: 320px; background-color: #fff }
 .line-big                 { position:relative; top:20px; height:1px; width: 940px; background:#b1b1b1 }
 
-.start-box                { position: relative; top: 40px; width: 100%; height:243px; background-color: #d0cdc7 }
+.start-box                { position: relative; top: 40px; width: 100%; height:228px; background-color: #d0cdc7 }
 .connecting-line          { position:relative; top: 28px; left: 55px; z-index: 0; width:205px; height: 8px; background-color: #bdbbb5 }
 .round-button-1           { position: relative; left:25px; top:12px; z-index: 1; float: left; width:38px; height:38px; line-height:38px; border: 1px solid #9e9c97; border-radius: 50%; box-shadow: inset 0px -5px 0px -2px rgba(177,177,177,0.25); text-align: center; box-shadow: 0 0 3px rgba(0,0,0,0.6); font-size: 20px; font-weight: bold;
                             background: -moz-linear-gradient(top,  #d5d5d5 0%, #f5f5f5 100%); /* FF3.6+ */
@@ -266,12 +265,13 @@ li.buttons                { display: table-cell; height: 60px; width: 100px; pad
   border-radius:8px;
   border:1px solid #7e7b77;
   display:inline-block;
-  cursor:pointer;
+  line-height: 40px;
   color:#0e80b1;
   text-align: center; font-weight: 400;
   font-size:22px;
   font-family:'Montserrat', sans-serif;
-  padding:20px 0;
+  padding:12px 0;
+  margin: 0 0 0 15px;
   text-decoration:none;
   text-shadow:0px 1px 0px #ffffff;
 }
@@ -298,8 +298,8 @@ li.buttons                { display: table-cell; height: 60px; width: 100px; pad
    FOOTER
    ============================================================ */ 
 
-.footer-background        { height: 340px; background-color: #545352 }
-.category-button          { margin: 15px 0 0 0; display: inline-block; padding: 20px 70px; background-color: #636362; color: #fff; font-family: arial; font-size: 17px; text-shadow: 0px 1px 0px #2b2b2b; border: 1px solid #373737;
+.footer-background        { height: 355px; width: 100%; background-color: #545352 }
+.category-button          { margin: 10px 0 0 0; display: inline-block; width: 100%; height: 40px; background-color: #636362; color: #fff; font-family:'Montserrat', sans-serif; font-size: 14px; line-height: 38px; text-align: center; text-shadow: 0px 1px 0px #2b2b2b; border: 1px solid #373737;
                             -moz-box-shadow: inset 0px 1px 0px 0px #929291;
                             -webkit-box-shadow: inset 0px 1px 0px 0px #929291;
                             box-shadow: inset 0px 1px 0px 0px #929291;
