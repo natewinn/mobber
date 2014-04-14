@@ -45,7 +45,7 @@ a.login-toggle            { position:relative; top: -48px; margin: 0 0 0 145px; 
 a.current-mob-start       { font-size: 16px; color:#414141; font-weight: 400; font-style: italic; line-height: 22px }
 a.kickstarter             { text-align: left; font-size: 10px; color:#0e81b1; font-weight: 400 }
 a.future-mobs             { }
-a.social-media            { font-size: 13px; line-height: 14px; color: #dddddd; font-family:'Montserrat', sans-serif; text-shadow: 0px 1px 0px rgba(21,21,21,0.25); text-align: left }
+a.social-media            { font-size: 13px; line-height: 14px; list-style-type: none; color: #dddddd; font-family:'Montserrat', sans-serif; text-shadow: 0px 1px 0px rgba(21,21,21,0.25); text-align: left }
 a.copyright               { }
 
 
@@ -98,22 +98,25 @@ p.description             { font-size: 11px; padding: 10px 0; line-height: 14px;
    ============================================================ */ 
 
 table.mob                 { margin-top: 24px; width: 100% }
-table.social              { padding: 10px 0 0 0; width: 100% }
 td                        { font-family:'Montserrat', sans-serif }
 tr.mob-space              { border-top: 1px solid #b1b1b1; padding: 0 0.5em }
 tr.social-space           { border-top: 1px solid #373737; padding: 0 0.5em; width: 100%; }
 td.mob-1                  { padding: 0.9rem 0 1rem 0; text-align: left;  font-size:0.9rem; font-weight: 700; color: #414141 }
 td.mob-2                  { padding: 0.9rem 0 1rem 0; text-align: center; font-size:0.9rem; font-weight: 400; color: #414141 }
 td.mob-3                  { padding: 0.9rem 0 1rem 0; text-align: right; font-size:0.9rem; font-weight: 400; color: #787878 }
-td.social                 { padding: 0.6rem 0 0.9rem 0; text-align: left; font-size:0.7em; font-weight: 400; color: #414141 }
 
 
 /* ============================================================
    LIST TAGS  
    ============================================================ */ 
 
+ul.social                 { padding: 0px; margin: 0px; list-style: none }
 li.nav                    { display: table-cell; height: 60px; width: 140px; line-height: 59px; text-align: left; white-space: nowrap }
 li.buttons                { display: table-cell; height: 60px; width: 100px; padding: 5px 0 0 0; text-align: center }
+ul.social li              { display: block; border-bottom: 1px solid #373737; padding: 5px 0 5px 32px; font-size: 13px; line-height: 14px; list-style-type: none; color: #dddddd; font-family:'Montserrat', sans-serif; text-shadow: 0px 1px 0px rgba(21,21,21,0.25); text-align: left }
+li.facebook               { background-image:url('../images/facebook-circle.png'); background-repeat: no-repeat; height: 22px; width: 22px }
+li.twitter                { background-image:url('../images/twitter-circle.png'); background-repeat: no-repeat; height: 22px; width: 22px; left: 0px; top: 50% }
+li.google-plus            { background-image:url('../images/google-plus-circle.png'); background-repeat: no-repeat; height: 22px; width: 22px; left: 0px; top: 50% }
 
 /* ============================================================
    NAVIGATION BAR
@@ -377,6 +380,8 @@ input.email:focus::-webkit-input-placeholder {
   opacity: 1;
 }
 
+.twitter-circle            { background-image:url('../images/twitter-circle.png'); float: left; height: 22px; width: 22px; margin: 0 0 0 0 }
+
 /*.submit:hover {
    background-color:#ffffff;
 }
@@ -386,6 +391,7 @@ input.email:focus::-webkit-input-placeholder {
    top:1px;
 }*/
 
-.checkmark              { background-image:url('../images/.png'); background-repeat: no-repeat; display: inline-block; padding: 0 0 0px 0px; width: 17px; height: 16px; margin:0 0 0px 0px;}
+/*.checkmark              { background-image:url('../images/.png'); background-repeat: no-repeat; padding: 0 0 0px 0px; width: 17px; height: 16px; margin:0 0 0px 0px;}*/
+
 
 
